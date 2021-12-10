@@ -13,6 +13,7 @@ First of all, the SPI1 interface is configured as Full Duplex Master. The parame
         -- SPI1_MISO: PA6
         -- SPI1_MOSI: PA7
         (in our case CS is created manually)
+        
 Then we configure the USART 2 interface as asynchronous with the following parameters:
   - Baud rate: 9600 bits/s
   - Word length: 8 bits
