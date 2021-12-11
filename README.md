@@ -1,5 +1,5 @@
-# STM32 as SPI-UART converter
-Code used in a STM32F0308 Discovery development board to continuously receive data via SPI and forward it via UART. In my case it was used to receive NMEA messages from a GNSS receiver, specifically the NEO-M9 from U-Blox and forward them via UART.
+# STM32 as a SPI-UART converter
+Code used in a STM32F0308 Discovery development board to continuously receive data via SPI and forward it via UART. In my case it was used to receive NMEA messages from a GNSS receiver, specifically the NEO-M9 from U-Blox, and forward them via UART.
 
 First of all, the SPI1 interface is configured as Full Duplex Master. The parameters used for its configuration are the following:
   - Data size: 8 bits
